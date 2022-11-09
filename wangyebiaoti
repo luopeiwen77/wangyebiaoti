@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+  body
+  {
+    background-color: hsl(206, 65%, 70%) ;
+  }
+   h4{
+    
+    font-family: '黑体';
+    text-align: center;        
+    }    
+    img
+    {
+        margin-top: 10px;
+        margin-left: 15px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: white;
+        width:200px;
+        height:140px;
+    }
+  img.test1
+  {
+   
+        position: fixed;
+        left:850px;
+       top:120px;
+    
+  }
+  img.test2
+  {
+    position:fixed;
+    left:160px;
+    top:160px;
+  }
+ img.test3
+  {
+    position:fixed;
+   left:640px;
+    top:300px;
+  }
+  img.hover
+  {
+    box-shadow: 0px 50px 20px rgba(0,0,0,0.7);
+  }
+
+</style>
+</head>
+<body>
+    
+    <h4>css照片墙</h4>
+    <img src="1.jpg">
+    <img src="2.jpg">
+    <img src="3.jpg">
+    <img src="4.jpg">
+    <img src="5.jpg">
+    <img src="6.jpg">
+    <img src="7.jpg">
+    <img src="8.jpg">
+    <img src="9.jpg">
+    <img src="12.jpg">
+    <img src="13.jpg">
+    <img src="14.jpg">
+    <img src="15.jpg">
+    <img src="16.jpg">
+    <img src="18.jpg">
+   <img src="10.jpg" class="test1">  
+    <img  src="17.jpg" class="test2"> 
+    <img  src="11.jpg" class="test3">
+    
+</body>
+</html>
